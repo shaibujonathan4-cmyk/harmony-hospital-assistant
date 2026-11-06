@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#123b46">
+  <meta name="description" content="Harmony Hospital virtual patient assistant. Get help with hospital services, appointments and general enquiries.">
+  <title>Harmony Hospital | Patient Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="app-shell">
+
+    <header class="topbar">
+      <a href="#" class="brand">
+        <div class="brand-icon">H</div>
+        <div>
+          <h1>Harmony Hospital</h1>
+          <span>Competence, Commitment and Compassion</span>
+        </div>
+      </a>
+
+      <button class="new-chat-btn" id="newChatBtn">
+        <span>＋</span> New chat
+      </button>
+    </header>
+
+    <section class="chat-container">
+
+      <div class="chat-heading">
+        <div class="assistant-avatar">H</div>
+        <div class="assistant-details">
+          <h2>Patient Assistant</h2>
+          <p><span class="online-dot"></span> Online · Here to help</p>
+        </div>
+        <span class="secure-label">Hospital Support</span>
+      </div>
+
+      <div class="chat-content" id="chatContent">
+
+        <div class="welcome-card">
+          <div class="welcome-icon">✦</div>
+          <h2>How can we help you today?</h2>
+          <p>
+            Welcome to Harmony Hospital. I'm your virtual assistant.
+            I can help you find information about our services,
+            specialists, appointments and more.
+          </p>
+        </div>
+
+        <div class="message assistant-message">
+          <div class="message-avatar">H</div>
+          <div class="message-body">
+            <div class="message-bubble">
+              Hello! 👋 Welcome to Harmony Hospital. It's lovely to
+              have you here. How may I assist you today?
+            </div>
+            <span class="message-time">Just now</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="quick-questions" id="quickQuestions">
+        <p>Frequently asked questions</p>
+        <div class="quick-options">
+          <button data-message="What services do you offer?">Our services</button>
+          <button data-message="Do you have a cardiologist?">Find a specialist</button>
+          <button data-message="How do I book an appointment?">Appointments</button>
+          <button data-message="Where are you located?">Hospital location</button>
+          <button data-message="What are your visiting hours?">Visiting hours</button>
+        </div>
+      </div>
+
+      <form class="message-form" id="messageForm">
+        <input
+          type="text"
+          id="messageInput"
+          placeholder="Type your message here..."
+          autocomplete="off"
+          maxlength="1000"
+          aria-label="Type your message"
+        >
+        <button type="submit" id="sendBtn" aria-label="Send message">
+          <span>➤</span>
+        </button>
+      </form>
+
+      <p class="privacy-note">
+        Please avoid sharing passwords, payment details or sensitive medical information.
+        This assistant provides general hospital information, not medical diagnosis.
+      </p>
+
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="currentYear"></span> Harmony Hospital. All rights reserved.</p>
+      <span>Powered by Harmony Patient Assistant</span>
+    </footer>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+{
+  "hospital": {
+    "name": "Harmony Hospital",
+    "tagline": "Competence, Commitment and Compassion",
+    "address": "No. 74 Egypt/Narayi Road, opposite Space 2000, Barnawa, Kaduna State.",
+    "phone": "09066639394",
+    "email": "harmonyhospital@ymail.com",
+    "visitingHours": "4:00 PM to 6:00 PM",
+    "website": "https://harmonyhospital.ng",
+    "sources": [
+      "https://harmonyhospital.ng/index.php?page=services",
+      "https://harmonyhospital.ng/index.php?page=specialists",
+      "https://harmonyhospital.ng/index.php?page=contact",
+      "https://harmonyhospital.ng/index.php?page=emergency"
+    ]
+  },
+  "services": [
+    "General consultations",
+    "Specialist clinics",
+    "Laboratory",
+    "X-ray",
+    "Pharmacy",
+    "Dental clinic",
+    "Physiotherapy",
+    "Emergency care",
+    "Online registration",
+    "Appointment confirmation",
+    "Health education",
+    "Patient feedback and complaints"
+  ],
+  "specialists": [
+    {
+      "name": "Neurologist",
+      "availability": "Available",
+      "schedule": "Fridays at 9:00 AM",
+      "description": "Brain, spinal cord and nerve conditions."
+    },
+    {
+      "name": "Psychiatrist",
+      "availability": "Booking only",
+      "schedule": "Based on booking",
+      "description": "Mental, emotional and behavioural health."
+    },
+    {
+      "name": "Orthopaedic Surgeon",
+      "availability": "Available",
+      "schedule": "Fridays at 4:00 PM",
+      "description": "Bones, joints, muscles and related conditions."
+    },
+    {
+      "name": "Paediatrician",
+      "availability": "Available",
+      "schedule": "Tuesdays at 6:00 PM",
+      "description": "Healthcare for babies, children and adolescents."
+    },
+    {
+      "name": "ENT Specialist",
+      "availability": "Booking only",
+      "schedule": "Based on booking",
+      "description": "Ear, nose and throat conditions."
+    },
+    {
+      "name": "Urologist",
+      "availability": "Available",
+      "schedule": "Thursdays at 4:00 PM",
+      "description": "Urinary system and related conditions."
+    },
+    {
+      "name": "Nutritionist",
+      "availability": "Booking only",
+      "schedule": "Based on booking",
+      "description": "Nutrition and healthy eating guidance."
+    },
+    {
+      "name": "Physiotherapist",
+      "availability": "Available",
+      "schedule": "Wednesdays, Fridays and Saturdays at 9:00 AM",
+      "description": "Movement, rehabilitation and physical recovery."
+    },
+    {
+      "name": "Ophthalmologist",
+      "availability": "Available",
+      "schedule": "Saturdays at 11:00 AM",
+      "description": "Eye diseases and vision problems."
+    },
+    {
+      "name": "General Surgeon",
+      "availability": "Booking only",
+      "schedule": "Based on booking",
+      "description": "Surgical procedures and related conditions."
+    },
+    {
+      "name": "Cardiologist",
+      "availability": "Available",
+      "schedule": "Wednesdays at 8:00 AM",
+      "description": "Heart and blood vessel conditions."
+    },
+    {
+      "name": "Gynaecologist",
+      "availability": "Available",
+      "schedule": "Available daily",
+      "description": "Women's reproductive and pregnancy-related healthcare."
+    },
+    {
+      "name": "Gastroenterologist",
+      "availability": "Available",
+      "schedule": "Saturdays at 2:00 PM",
+      "description": "Digestive system conditions."
+    },
+    {
+      "name": "Endocrinologist",
+      "availability": "Limited",
+      "schedule": "Alternate Tuesdays at 5:30 PM",
+      "description": "Hormonal and metabolic conditions."
+    },
+    {
+      "name": "Dermatologist",
+      "availability": "Available",
+      "schedule": "Thursdays at 4:00 PM",
+      "description": "Skin, hair and nail conditions."
+    },
+    {
+      "name": "Haematologist",
+      "availability": "Limited",
+      "schedule": "Alternate Tuesdays at 5:30 PM",
+      "description": "Blood-related conditions."
+    },
+    {
+      "name": "Pulmonologist",
+      "availability": "Limited",
+      "schedule": "Alternate Thursdays at 4:00 PM",
+      "description": "Lung and respiratory conditions."
+    },
+    {
+      "name": "Nephrologist",
+      "availability": "Available",
+      "schedule": "Saturdays at 11:00 AM",
+      "description": "Kidney-related conditions."
+    }
+  ],
+  "patientPortal": {
+    "features": [
+      "Appointments",
+      "Laboratory results",
+      "Visit history",
+      "Prescription requests",
+      "Referral letters",
+      "Medical reports",
+      "Downloadable receipts",
+      "Secure messages"
+    ],
+    "url": "https://harmonyhospital.ng"
+  },
+  "emergency": {
+    "available": "24-hour emergency services advertised by the hospital",
+    "phone": "09066639394",
+    "instructions": [
+      "Call the hospital and briefly explain the immediate concern.",
+      "Proceed directly to the clearly marked emergency entrance.",
+      "Follow emergency signs and speak with the reception or emergency-care team.",
+      "Bring identification, existing medical records and current medication information when available."
+    ],
+    "warning": "Online forms and appointment bookings are not monitored as emergency channels."
+  },
+  "responseRules": {
+    "tone": "Calm, friendly, respectful, reassuring and professional",
+    "neverDiagnose": true,
+    "neverPrescribeMedication": true,
+    "neverInventHospitalInformation": true,
+    "confirmChangingSchedules": true,
+    "escalateUncertainQuestions": true
+  }
+}
